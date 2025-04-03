@@ -1,0 +1,56 @@
+@import url(reset.css);
+@import url(components/content.css);
+@import url(components/footer.css);
+@import url(components/navbar.css);
+@import url(components/sidebar.css);
+@import url(components/card.css);
+@import url(components/tabela.css);
+@import url(components/acoes.css);
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 68px 1fr 22px;
+}
+
+p{
+    margin: 20px 0;
+}
+
+.icon-btn {
+    border: none;
+    background-color: transparent;
+}
+ 
+.icon {
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    width: 30px;
+    object-fit: contain;
+}
+
+.acao{
+    display: flex;
+    justify-content: end;
+
+    a{
+        text-decoration: unset;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 48px 1fr 22px;
+    }
+}

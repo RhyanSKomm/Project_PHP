@@ -1,0 +1,39 @@
+aside {
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(49, 49, 56);
+    grid-column: 1;
+    grid-row: 1 / 4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+        text-align: center;
+
+        a{
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: larger;
+        }
+
+        li{
+            margin: 10px 0;
+        }
+    }
+    button {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    aside {
+        visibility: hidden;
+
+        button {
+            visibility: visible;
+        }
+        grid-column: 1;
+    }
+}
