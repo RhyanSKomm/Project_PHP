@@ -1,4 +1,4 @@
-<?php
+    <?php
 require_once './../../model/UsuarioModel.php';
 
 $usuarioModel = new UsuarioModel();
@@ -15,7 +15,20 @@ $listar = $usuarioModel->listar();
     <?php require_once '../components/sidebar.php'; ?>
 
     <main>
-        <h1>Usuários</h1>
+        <div class="h1">
+            <h1>Usuários</h1>
+        </div>
+
+        <div class="acao">
+            <a href="usuario.php">
+                <button>
+                    <span>Novo</span>
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                </button>
+            </a>
+        </div>
 
         <table class="table">
             <thead>
@@ -37,23 +50,25 @@ $listar = $usuarioModel->listar();
                         <td><?php echo $usuario['data_nascimento'] ?></td>
                         <td><?php echo $usuario['cpf'] ?></td>
                         <td>
-                            <form action="cadastro.php" method="GET">
+                            <form action="usuario.php" method="GET">
                                 <input type="hidden" name="id" value="<?= $usuario['id']; ?>">
-                                <button>
+                                <button class="icon-btn">
                                     <span class="material-symbols-outlined">
                                         edit
                                     </span>
                                 </button>
                             </form>
 
-                            <form action="excluir.php" method="POST">
+                            <form action="usuario_excluir.php" method="POST">
                                 <input type="hidden" name="id" value="<?= $usuario['id']; ?>">
-                                <button onclick="return confirm('Tem certaza que deseja excluir o filme?')">
+                                <button onclick="return confirm('Tem certaza que deseja excluir o filme?')" class="icon-btn">
                                     <span class="material-symbols-outlined">
                                         delete
                                     </span>
                                 </button>
                             </form>
+
+                            
                         </td>
                     </tr>
                 <?php } ?>
@@ -61,7 +76,6 @@ $listar = $usuarioModel->listar();
         </table>
     </main>
 
-    <?php require_once __DIR__ . '\..\..\components\footer.php'; ?>
 </body>
 
 </html>

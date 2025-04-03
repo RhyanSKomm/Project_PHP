@@ -4,9 +4,9 @@ class Database {
  
     private $host = "localhost";
     private $port = "3306";
-    private $dbName = "site_adm";
+    private $dbName = "projeto_php";
     private $user = "root";
-    private $password = "";
+    private $password = "010206";
    
     public function conectar() {
         $url = "mysql:host=$this->host;port=$this->port;dbname=$this->dbName";

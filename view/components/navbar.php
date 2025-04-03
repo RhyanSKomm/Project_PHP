@@ -1,3 +1,4 @@
 <header>
-    <h1>PROJETO</h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <h1>Projeto</h1>
 </header>

@@ -1,5 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
 
-.acao{
-    margin: 40px;
+.acao {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.acao a {
+    text-decoration: none;
+}
+
+.acao button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.acao button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.acao .material-symbols-outlined {
+    font-size: 20px;
 }

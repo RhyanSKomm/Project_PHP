@@ -1,20 +1,96 @@
-.table{
+.table-container {
     width: 100%;
-    border-color: rgb(0, 0, 0);
-    border-collapse: collapse;
-
-    thead, th, tbody, td, tr {
-        border-color: inherit;
-        border-style: solid;
-        border-width: 0;
-    }
-
-    th, td{
-        border-bottom-width: 2px;
-        padding: 0.7rem;
-        text-align: left;
-    }
-
-    
+    overflow-x: auto; /* Permite rolar horizontalmente se necessário */
+    display: flex;
+    justify-content: center; /* Centraliza a tabela */
+    padding: 10px; /* Evita que encoste nas bordas */
 }
 
+.table {
+    width: 100%;
+    max-width: 1200px; /* Ajusta o tamanho máximo */
+    border-collapse: collapse;
+    border: 1px solid #000;
+    font-size: 16px;
+}
+
+.table thead {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #000;
+    text-align: left;
+    white-space: nowrap; /* Evita quebra de linha nos textos */
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Botões */
+.icon-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.icon-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.icon-btn:hover .material-symbols-outlined {
+    color: #fff;
+}
+
+/* Estilo do Título */
+.h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.h1 h1 {
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .table-container {
+        padding: 5px;
+    }
+
+    .table {
+        font-size: 14px; /* Reduz o tamanho da fonte para caber melhor */
+    }
+
+    .table th, .table td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .table {
+        font-size: 12px; /* Ainda menor para telas pequenas */
+    }
+
+    .table th, .table td {
+        padding: 6px;
+    }
+}

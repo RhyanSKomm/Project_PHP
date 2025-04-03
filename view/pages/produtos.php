@@ -18,8 +18,10 @@ $listar = $produtoModel->listar();
 
     <main>
 
-        <h1>Produtos</h1>
-
+        <div class="h1">
+            <h1>Produtos</h1>
+        </div>
+        
         <div class="acao">
             <a href="produto.php">
                 <button>
@@ -36,6 +38,7 @@ $listar = $produtoModel->listar();
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Descrição</th>
+                <th>Categoria</th>
                 <th>Ações</th>
             </thead>
             <tbody>
@@ -55,7 +58,7 @@ $listar = $produtoModel->listar();
                                 </button>
                             </form>
 
-                            <form action="categoria_excluir.php" method="POST">
+                            <form action="produto_excluir.php" method="POST">
                                 <input type="hidden" name="id" value="<?= $produto['id']; ?>">
                                 <button class="icon-btn">
                                     <span class="material-symbols-outlined">
@@ -64,14 +67,7 @@ $listar = $produtoModel->listar();
                                 </button>
                             </form>
 
-                            <form action="categoria_excluir.php" method="POST">
-                                <input type="hidden" name="id" value="<?= $produto['id']; ?>">
-                                <button class="icon-btn">
-                                    <span class="material-symbols-outlined">
-                                        visibility
-                                    </span>
-                                </button>
-                            </form>
+                            
                         </td>
                     </tr>
                 <?php } ?>

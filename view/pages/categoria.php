@@ -21,6 +21,7 @@
 
     <?php require_once '../components/sidebar.php'?>
     
+    <main>
     <div class="container">
             <form class="form" method="POST" action="<?= 'categoria_salvar.php' ?>">
                 <div class="form-content">
@@ -42,6 +43,7 @@
                 </div>
             </form>
         </div>
+    </main>
 
 </body>
 

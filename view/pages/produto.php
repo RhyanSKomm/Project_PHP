@@ -25,6 +25,7 @@
 
     <?php require_once '../components/sidebar.php'?>
     
+    <main>
     <div class="container">
             <form class="form" method="POST" action="<?= 'produto_salvar.php' ?>">
                 <div class="form-content">
@@ -41,22 +42,23 @@
                     </div>
 
                     <div class="input-group">
-                        <select class="form-input" id="id_  " name="id_categoria" required>
+                        <label for="id_categoria">Categoria</label>
+                        <select class="form-input" id="id_categoria" name="id_categoria" required>
                             <option value="">Selecione uma Categoria</option>
                             <?php if (is_array($categorias)) { ?>
                                 <?php foreach ($categorias as $categoria) { ?>
                                     <option value="<?php echo $categoria['id']; ?>"
-                                    >
-                                    <?php echo $categoria['nome']; ?>
-                                </option>
+                                        <?php echo ($produto['id_categoria'] == $categoria['id']) ? 'selected' : ''; ?>>
+                                        <?php echo $categoria['nome']; ?>
+                                    </option>
+                                <?php } ?>
                             <?php } ?>
-                        <?php } ?>
-                    </select>
+                        </select>
                     </div>
-                </div>
+
 
                 <div class="form-actions">
-                    <a href="<?='categorias.php' ?>">
+                    <a href="<?='produtos.php' ?>">
                         <button class="btn" type="button">
                             Cancelar
                         </button>
@@ -65,6 +67,7 @@
                 </div>
             </form>
         </div>
+    </main>
 
 </body>
 

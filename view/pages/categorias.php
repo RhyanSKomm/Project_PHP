@@ -14,7 +14,9 @@ $listar = $categoriaModel->listar();
     <?php require_once __DIR__ . '\..\components\sidebar.php'; ?>
 
     <main>
-        <h1>Categorias</h1>
+        <div class="h1">
+            <h1>Categorias</h1>
+        </div>
 
         <div class="acao">
             <a href="categoria.php">
@@ -57,14 +59,6 @@ $listar = $categoriaModel->listar();
                                 </button>
                             </form>
 
-                            <form action="categoria_excluir.php" method="POST">
-                                <input type="hidden" name="id" value="<?= $categoria['id']; ?>">
-                                <button class="icon-btn">
-                                    <span class="material-symbols-outlined">
-                                        visibility
-                                    </span>
-                                </button>
-                            </form>
                         </td>
                     </tr>
                 <?php } ?>

@@ -5,75 +5,26 @@
 
 
 <body>
-    <?php require_once __DIR__ . '\..\components\navbar.php' ?>  
+    <?php require_once __DIR__ . '\..\components\navbar.php' ?>
+    <?php require_once './../components/sidebar_home.php' ?>
 
-    <?php require_once __DIR__ . '\..\components\sidebar.php' ?>    
 
-    
+
 
     <main>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus fugit asperiores autem itaque veritatis ad odit nobis odio facilis explicabo nostrum quia facere, atque at vero animi molestiae sapiente?
+        <div class="card-container">
+            <div class="card shadow" onclick="window.location.href='usuarios.php'">
+                <h1>Usuarios</h1>
+            </div>
+            <div class="card shadow" onclick="window.location.href='produtos.php'">
+                <h1>Produtos</h1>
+            </div>
+            <div class="card shadow" onclick="window.location.href='categorias.php'">
+                <h1>
+                    Categorias
+                </h1>
+            </div>
+        </div>
     </main>
 
     <?php require_once __DIR__ . '\../components/footer.php'; ?>

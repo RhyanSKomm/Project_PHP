@@ -1,26 +1,22 @@
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: calc(100vw - 200px);
-    height: calc(100vh - 68px - 22px);
+    min-height: calc(100vh - 68px - 22px); /* Garante altura mínima */
     background-color: rgb(255, 255, 255);
-    /* position: fixed;
-    right: 0;
-    top: 68px; */
     overflow: auto;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 2; 
     text-align: center;
-    h1{
-        font-size: 30px;
-        margin: 10px 10px;
-    }
 }
 
+/* Ajuste para telas menores */
 @media screen and (max-width: 490px) {
     main {
         width: 100vw;
-        height: calc(100vh - 48px - 22px);
-        top: 48px;
+        min-height: calc(100vh - 48px - 22px);
         grid-column: 1;
     }
-
 }
