@@ -4,6 +4,7 @@ require_once './../../model/CategoriaModel.php';
 $categoriaModel = new CategoriaModel();
 $listar = $categoriaModel->listar();
 
+
 ?>
 
 <?php require_once __DIR__ . '\..\components\head.php'; ?>

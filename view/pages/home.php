@@ -12,7 +12,7 @@
 
 
     <main>
-
+        
         <div id="recaptcha-container">
             <form action="" id="loginForm">
             <div class="g-recaptcha" 
